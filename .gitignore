@@ -49,7 +49,6 @@ tmp/
 temp/
 
 # Локальные конфиги и секреты
-.env
 .secrets/
 secrets.json
 credentials.json
