@@ -16,3 +16,17 @@ dependencies = [
     "requests>=2.34.2",
 ]
 
+[tool.pytest.ini_options]
+minversion = "9.0"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "-s",
+    "-v",
+    "--strict-markers",
+    "--strict-config",
+    "--alluredir=allure-results",
+    "--clean-alluredir",
+]
