@@ -29,7 +29,5 @@ class UsersHTTPClient:
         return CreateUserResponseSchema.model_validate_json(response.text)
 
 
-
-
 def build_users_http_client() -> UsersHTTPClient:
     return UsersHTTPClient(client=get_public_http_client())
