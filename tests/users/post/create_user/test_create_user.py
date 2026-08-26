@@ -1,14 +1,18 @@
 import pytest
+import allure
 from http import HTTPStatus
-
+from allure_commons.types import Severity
 from assertions.users.assertions import assert_create_user_response
 from clients.gateway.users.client import UsersHTTPClient
 from clients.gateway.users.schemas import CreateUserRequestSchema, CreateUserResponseSchema
 from libs.assertions.base_assertions import assert_status_code
 from libs.faker.faker import fake
+from tests.users.post.create_user.allure_helpers import TestCreateUserPositiveHelper, TestCreateUserNegativeHelper
 
 
-class TestCreateUser:
+class TestCreateUser(TestCreateUserPositiveHelper):
+    @allure.title("Successful create user")
+    @allure.severity(Severity.BLOCKER)
     @pytest.mark.parametrize("domain", ["mail.ru", "gmail.com", "icloud.com", "outlook.com", "example.com"])
     def test_create_user(self, http_users_client: UsersHTTPClient, domain: str) -> None:
         request = CreateUserRequestSchema(email=fake.email(domain=domain))
@@ -19,7 +23,9 @@ class TestCreateUser:
         assert_create_user_response(request=request, response=response_data)
 
 
-class TestCreateUserNegative:
+class TestCreateUserNegative(TestCreateUserNegativeHelper):
+    @allure.title("Create user with invalid email")
+    @allure.severity(Severity.CRITICAL)
     @pytest.mark.parametrize(
         "email",
         [

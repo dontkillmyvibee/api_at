@@ -30,3 +30,11 @@ addopts = [
     "--alluredir=allure-results",
     "--clean-alluredir",
 ]
+
+markers = [
+    "api: API tests",
+    "users: Users domain tests",
+    "regression: Regression tests",
+    "positive: Positive tests",
+    "negative: Negative tests",
+]
