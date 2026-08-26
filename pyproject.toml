@@ -1,0 +1,18 @@
+[project]
+name = "api-at"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+
+dependencies = [
+    "allure-pytest>=2.16.0",
+    "email-validator>=2.3.0",
+    "faker>=40.37.0",
+    "pydantic>=2.13.4",
+    "pydantic-extra-types>=2.11.1",
+    "pydantic-settings>=2.15.0",
+    "pytest>=9.1.1",
+    "requests>=2.34.2",
+]
+

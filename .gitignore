@@ -1,0 +1,74 @@
+# Виртуальные окружения
+.venv/
+venv/
+env/
+*.venv
+
+# Интерпретаторы и кэши пакетов
+.idea/
+.vscode/
+*.swp
+*.swo
+*~пф
+
+# Кэши и временные файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Тесты и отчёты (если генерируются локально)
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+.hypothesis/
+.tox/
+
+# Логи и артефакты сборки
+*.log
+logs/
+tmp/
+temp/
+
+# Локальные конфиги и секреты
+.env
+.secrets/
+secrets.json
+credentials.json
+config/local.*
+config/*local*
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# IDE / редакторские файлы
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+*.komodoworkspace
