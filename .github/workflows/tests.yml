@@ -17,12 +17,11 @@ env:
   API.BASE_URL: http://localhost:8003
   API.TIMEOUT: "30"
   STAND_DIR: performance-qa-engineer-course
-  STAND_COMPOSE: docker-compose.ci.yaml
 
 jobs:
   run-tests:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 60
 
     steps:
       - name: Check out repository
@@ -44,32 +43,41 @@ jobs:
         working-directory: ${{ env.STAND_DIR }}
         run: docker build -f Dockerfile.base -t base-service .
 
-      - name: Start test services
+      - name: Start full test stand
+        working-directory: ${{ env.STAND_DIR }}
+        run: docker compose up -d --build
+
+      - name: Wait for users migrations
         working-directory: ${{ env.STAND_DIR }}
         run: |
-          if [ -f "${STAND_COMPOSE}" ]; then
-            docker compose -f "${STAND_COMPOSE}" up -d --build
-          else
-            docker compose up -d --build
-          fi
-
-      - name: Wait for gateway
-        run: |
-          for i in $(seq 1 60); do
-            if curl -sf "http://localhost:8003/docs" >/dev/null; then
-              echo "Gateway is ready"
+          for i in $(seq 1 90); do
+            status="$(docker inspect -f '{{.State.Status}}' postgres-migrator-users 2>/dev/null || echo missing)"
+            exit_code="$(docker inspect -f '{{.State.ExitCode}}' postgres-migrator-users 2>/dev/null || echo 1)"
+            if [ "$status" = "exited" ] && [ "$exit_code" = "0" ]; then
+              echo "Users migrations finished"
               exit 0
             fi
-            echo "Waiting for gateway (${i}/60)"
+            echo "Waiting for users migrations (${i}/90) status=${status} exit=${exit_code}"
             sleep 5
           done
-          echo "Gateway did not become ready"
           docker ps -a
-          if [ -f "${STAND_DIR}/${STAND_COMPOSE}" ]; then
-            docker compose -f "${STAND_DIR}/${STAND_COMPOSE}" logs --no-color | tail -n 200
-          else
-            docker compose -f "${STAND_DIR}/docker-compose.yml" logs --no-color | tail -n 200 || true
-          fi
+          docker compose logs --no-color postgres-init postgres-migrator-users | tail -n 200
+          exit 1
+
+      - name: Wait for users service and gateway
+        run: |
+          for i in $(seq 1 60); do
+            if curl -sf "http://localhost:8001/docs" >/dev/null \
+              && curl -sf "http://localhost:8003/docs" >/dev/null; then
+              echo "Users service and gateway are ready"
+              exit 0
+            fi
+            echo "Waiting for HTTP services (${i}/60)"
+            sleep 5
+          done
+          echo "Stand did not become ready"
+          docker ps -a
+          docker compose -f "${STAND_DIR}/docker-compose.yaml" logs --no-color | tail -n 200
           exit 1
 
       - name: Run API tests
@@ -80,21 +88,12 @@ jobs:
         working-directory: ${{ env.STAND_DIR }}
         run: |
           docker ps -a
-          if [ -f "${STAND_COMPOSE}" ]; then
-            docker compose -f "${STAND_COMPOSE}" logs --no-color | tail -n 400
-          else
-            docker compose logs --no-color | tail -n 400 || true
-          fi
+          docker compose logs --no-color http-gateway http-users postgres postgres-init postgres-migrator-users | tail -n 400
 
       - name: Stop test services
         if: always()
         working-directory: ${{ env.STAND_DIR }}
-        run: |
-          if [ -f "${STAND_COMPOSE}" ]; then
-            docker compose -f "${STAND_COMPOSE}" down -v
-          else
-            docker compose down -v || true
-          fi
+        run: docker compose down -v
 
       - name: Upload Allure results
         if: always()
@@ -143,3 +142,10 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: allure-history
+
+      - name: Write report URL
+        run: |
+          REPORT_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+          echo "Allure report: ${REPORT_URL}"
+          echo "## Allure report" >> "$GITHUB_STEP_SUMMARY"
+          echo "[${REPORT_URL}](${REPORT_URL})" >> "$GITHUB_STEP_SUMMARY"
