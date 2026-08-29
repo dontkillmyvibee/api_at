@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "9d58058b-5b48-493d-9089-f86b2d4be668",
+    "email": "wnguyen@gmail.com",
+    "lastName": "Norman",
+    "firstName": "Alexandria",
+    "middleName": "Kendra",
+    "phoneNumber": "297.969.9247"
+  }
+}

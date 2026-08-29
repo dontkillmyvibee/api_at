@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "e1e9bc05-9cd7-4881-bbce-bf7365829c79",
+    "email": "joanschultz@icloud.com",
+    "lastName": "Morales",
+    "firstName": "William",
+    "middleName": "Nicole",
+    "phoneNumber": "001-524-244-0962x68241"
+  }
+}
