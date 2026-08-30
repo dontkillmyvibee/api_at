@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "f4712976-e6df-4972-bc92-b04ed49ff3c2",
+    "email": "butlerkristi@gmail.com",
+    "lastName": "Hernandez",
+    "firstName": "Blake",
+    "middleName": "Elizabeth",
+    "phoneNumber": "(252)426-6263"
+  }
+}

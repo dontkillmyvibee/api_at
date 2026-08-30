@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "c6ec0e2f-0318-40cd-83c9-fcae76bbfc6d",
+    "email": "patrickbaker@icloud.com",
+    "lastName": "Galloway",
+    "firstName": "Natalie",
+    "middleName": "Kimberly",
+    "phoneNumber": "001-430-252-2012"
+  }
+}
