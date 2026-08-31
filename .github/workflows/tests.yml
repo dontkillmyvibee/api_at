@@ -49,22 +49,6 @@ jobs:
         working-directory: ${{ env.STAND_DIR }}
         run: docker compose up -d --build
 
-      - name: Wait for users migrations
-        working-directory: ${{ env.STAND_DIR }}
-        run: |
-          for i in $(seq 1 90); do
-            status="$(docker inspect -f '{{.State.Status}}' postgres-migrator-users 2>/dev/null || echo missing)"
-            exit_code="$(docker inspect -f '{{.State.ExitCode}}' postgres-migrator-users 2>/dev/null || echo 1)"
-            if [ "$status" = "exited" ] && [ "$exit_code" = "0" ]; then
-              echo "Users migrations finished"
-              exit 0
-            fi
-            echo "Waiting for users migrations (${i}/90) status=${status} exit=${exit_code}"
-            sleep 5
-          done
-          docker ps -a
-          docker compose logs --no-color postgres-init postgres-migrator-users | tail -n 200
-          exit 1
 
       - name: Wait for users service and gateway
         run: |
