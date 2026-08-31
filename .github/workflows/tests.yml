@@ -2,26 +2,17 @@ name: API Tests
 
 on:
   push:
-    branches: [main, dev]
+    branches:
+      - main
   pull_request:
-    branches: [main, dev]
-  workflow_dispatch:
+    branches:
+      - main
   schedule:
-    - cron: "0 3 * * *"
-
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
-
-env:
-  API.BASE_URL: http://localhost:8003
-  API.TIMEOUT: "30"
-  STAND_DIR: performance-qa-engineer-course
+    - cron: "0 9 * * *"
 
 jobs:
   run-tests:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
 
     steps:
       - name: Check out repository
@@ -37,7 +28,7 @@ jobs:
         run: uv sync --frozen
 
       - name: Clone test stand
-        run: git clone --depth 1 https://github.com/Nikita-Filonov/performance-qa-engineer-course.git "${STAND_DIR}"
+        run: git clone --depth 1 https://github.com/Nikita-Filonov/performance-qa-engineer-course.git
 
       - name: Build base Docker image
         working-directory: ${{ env.STAND_DIR }}
