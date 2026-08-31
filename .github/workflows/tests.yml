@@ -2,15 +2,17 @@ name: API Tests
 
 on:
   push:
-    branches: [main, dev]
+    branches:
+      - main
   pull_request:
-    branches: [main, dev]
+    branches:
+      - main
   workflow_dispatch:
   schedule:
-    - cron: "0 3 * * *"
+    - cron: "0 9 * * *"
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
+  group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.ref }}
   cancel-in-progress: true
 
 env:
@@ -129,7 +131,7 @@ jobs:
           path: gh-pages
 
       - name: Generate Allure report
-        uses: simple-elf/allure-report-action@master
+        uses: simple-elf/allure-report-action@v1.15
         with:
           allure_results: allure-results
           gh_pages: gh-pages
@@ -142,10 +144,10 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: allure-history
-
-      - name: Write report URL
-        run: |
-          REPORT_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
-          echo "Allure report: ${REPORT_URL}"
-          echo "## Allure report" >> "$GITHUB_STEP_SUMMARY"
-          echo "[${REPORT_URL}](${REPORT_URL})" >> "$GITHUB_STEP_SUMMARY"
+#
+#      - name: Write report URL
+#        run: |
+#          REPORT_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+#          echo "Allure report: ${REPORT_URL}"
+#          echo "## Allure report" >> "$GITHUB_STEP_SUMMARY"
+#          echo "[${REPORT_URL}](${REPORT_URL})" >> "$GITHUB_STEP_SUMMARY"
