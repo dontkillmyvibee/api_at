@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "22b94f5e-e7f2-4796-b179-c693c6a48c58",
+    "email": "sparksdominique@gmail.com",
+    "lastName": "Livingston",
+    "firstName": "Claire",
+    "middleName": "Linda",
+    "phoneNumber": "281-999-4711"
+  }
+}

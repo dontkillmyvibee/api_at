@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "20b4859b-94aa-4508-ad99-c845446c5027",
+    "email": "dburns@outlook.com",
+    "lastName": "Williamson",
+    "firstName": "Deborah",
+    "middleName": "Darlene",
+    "phoneNumber": "201.291.4759x35640"
+  }
+}
