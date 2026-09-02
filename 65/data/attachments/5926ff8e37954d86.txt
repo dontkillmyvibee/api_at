@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "e5512ea0-9bc2-466d-afec-d3f167fc14d6",
+    "email": "villegaskimberly@icloud.com",
+    "lastName": "Reyes",
+    "firstName": "Earl",
+    "middleName": "Luis",
+    "phoneNumber": "317-462-0988x60570"
+  }
+}
