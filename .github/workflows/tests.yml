@@ -96,7 +96,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v7
         with:
-          name: allure-results
+          name: allure-results-${{ github.run_id }}
           path: allure-results
           if-no-files-found: ignore
           retention-days: 30
