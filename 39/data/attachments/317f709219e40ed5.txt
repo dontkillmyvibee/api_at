@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "b04d9dd3-e20f-41e5-a08c-395fb647e0fb",
+    "email": "ntaylor@gmail.com",
+    "lastName": "Ramos",
+    "firstName": "Sydney",
+    "middleName": "Gregory",
+    "phoneNumber": "001-513-306-2485"
+  }
+}
