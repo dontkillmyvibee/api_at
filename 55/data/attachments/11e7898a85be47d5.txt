@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "f71e0ccc-21f6-48ff-8854-9d76fa967fdc",
+    "email": "reyesscott@gmail.com",
+    "lastName": "Howard",
+    "firstName": "Bianca",
+    "middleName": "Charles",
+    "phoneNumber": "342-408-0230"
+  }
+}
