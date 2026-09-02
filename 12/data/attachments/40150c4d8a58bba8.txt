@@ -1,3 +1,0 @@
-INFO     HTTP_CLIENT:base_client.py:26 Send request GET to http://localhost:8003/api/v1/users/2b5f1c35-114f-4bd3-a6f0-a082080b5147
-INFO     HTTP_CLIENT:base_client.py:33 Get response "200 OK" from http://localhost:8003/api/v1/users/2b5f1c35-114f-4bd3-a6f0-a082080b5147
-INFO     BASE_ASSERTIONS:base_assertions.py:11 Check that "Status Code" equals to 404
