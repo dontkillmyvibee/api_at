@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "4e074448-9b50-4e2f-b964-ef512fb7bd71",
+    "email": "stacybrown@gmail.com",
+    "lastName": "Simpson",
+    "firstName": "Brandon",
+    "middleName": "Gina",
+    "phoneNumber": "(905)306-3227"
+  }
+}
