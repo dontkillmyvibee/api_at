@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "bdb9992b-e8f9-4030-8598-db1b4cd49a92",
+    "email": "drivas@icloud.com",
+    "lastName": "Tucker",
+    "firstName": "Patrick",
+    "middleName": "Cassandra",
+    "phoneNumber": "(547)381-8594"
+  }
+}

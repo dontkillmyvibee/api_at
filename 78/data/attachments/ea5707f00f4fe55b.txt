@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "ae63a5cb-94b3-4830-8718-d926316a0261",
+    "email": "dbennett@gmail.com",
+    "lastName": "Ibarra",
+    "firstName": "Thomas",
+    "middleName": "Diane",
+    "phoneNumber": "+1-241-294-5765"
+  }
+}
