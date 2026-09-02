@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "2137a35a-ac38-4ed1-9b2d-bf2137cca525",
+    "email": "heather24@example.com",
+    "lastName": "Weaver",
+    "firstName": "Jason",
+    "middleName": "Robert",
+    "phoneNumber": "(465)331-5536x44556"
+  }
+}
