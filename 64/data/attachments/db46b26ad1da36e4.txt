@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "0ff985e6-4791-477d-8a7e-45e0d2ef8dde",
+    "email": "buckleymatthew@mail.ru",
+    "lastName": "Bishop",
+    "firstName": "Patricia",
+    "middleName": "Rachel",
+    "phoneNumber": "204.427.0354x14567"
+  }
+}
