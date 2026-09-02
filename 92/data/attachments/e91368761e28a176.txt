@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "e5e4e2c4-f2a4-40eb-bd6b-f43131d1bfa4",
+    "email": "lepeter@gmail.com",
+    "lastName": "Combs",
+    "firstName": "Joshua",
+    "middleName": "Christine",
+    "phoneNumber": "381-788-9800x73390"
+  }
+}
