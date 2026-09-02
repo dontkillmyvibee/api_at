@@ -137,16 +137,17 @@ jobs:
           allure_history: allure-history
           keep_reports: 20
 
-      - name: Prepare Allure results archive
+      - name: Prepare GitHub Pages
         run: |
-          mkdir -p allure-history/artifacts
-          zip -r "allure-history/artifacts/${{ github.run_id }}.zip" allure-results
+          cp -r allure-history publish
+          mkdir -p publish/artifacts
+          zip -r "publish/artifacts/${{ github.run_id }}.zip" allure-results
 
       - name: Deploy report to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: allure-history
+          publish_dir: publish
           full_commit_message: "allure: report for run ${{ github.run_id }}"
           allow_empty_commit: true
