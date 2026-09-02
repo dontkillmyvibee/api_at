@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "4dc61869-b12b-4154-a7c4-3ed0010f1fa1",
+    "email": "nhale@gmail.com",
+    "lastName": "Turner",
+    "firstName": "Michelle",
+    "middleName": "Christian",
+    "phoneNumber": "001-829-736-8364x177"
+  }
+}

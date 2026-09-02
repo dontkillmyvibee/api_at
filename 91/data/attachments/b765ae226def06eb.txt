@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "9320a13a-3b5b-4c06-bf20-41fc32be092e",
+    "email": "jesusgriffin@outlook.com",
+    "lastName": "Davis",
+    "firstName": "Brittney",
+    "middleName": "Derrick",
+    "phoneNumber": "256.813.7089x74354"
+  }
+}
