@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "2446c188-94c1-4ecc-8dda-d090bd9acab9",
+    "email": "lmarquez@mail.ru",
+    "lastName": "Johnson",
+    "firstName": "Lee",
+    "middleName": "Michael",
+    "phoneNumber": "+1-822-528-8187"
+  }
+}

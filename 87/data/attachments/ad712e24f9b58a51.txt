@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "66774fe8-cf69-4d05-abda-f48f8bc48eb0",
+    "email": "lisalyons@gmail.com",
+    "lastName": "Bruce",
+    "firstName": "Brian",
+    "middleName": "John",
+    "phoneNumber": "(812)502-8205"
+  }
+}
