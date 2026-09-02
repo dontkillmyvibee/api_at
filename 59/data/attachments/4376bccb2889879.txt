@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "2bf92eb9-bb32-4e7e-8aaf-44b86889120e",
+    "email": "jessicasmith@gmail.com",
+    "lastName": "Mayo",
+    "firstName": "Dana",
+    "middleName": "Jennifer",
+    "phoneNumber": "001-612-984-8064"
+  }
+}
