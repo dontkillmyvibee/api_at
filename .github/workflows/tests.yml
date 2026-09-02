@@ -8,6 +8,17 @@ on:
     branches:
       - main
   workflow_dispatch:
+    inputs:
+      marker:
+        description: "Pytest marker"
+        required: true
+        default: "api"
+        type: string
+#    environment:
+#      description: "Environment"
+#      required: true
+#      default: "local"
+#      type: string
   schedule:
     - cron: "0 9 * * *"
 
@@ -67,7 +78,7 @@ jobs:
           exit 1
 
       - name: Run API tests
-        run: uv run pytest -m api
+        run: uv run pytest -m "${{ inputs.marker || 'api' }}"
 
       - name: Dump stand logs on failure
         if: failure()
