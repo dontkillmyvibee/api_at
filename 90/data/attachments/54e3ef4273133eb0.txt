@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "5716959a-c310-4402-a920-0477c6752f29",
+    "email": "ymcgee@gmail.com",
+    "lastName": "Campbell",
+    "firstName": "Richard",
+    "middleName": "Thomas",
+    "phoneNumber": "(967)754-6239x691"
+  }
+}
