@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "e7478921-af0c-493d-adda-5897f18a1bea",
+    "email": "valenciamichael@mail.ru",
+    "lastName": "Ward",
+    "firstName": "John",
+    "middleName": "Jesus",
+    "phoneNumber": "001-471-954-4668x9114"
+  }
+}
