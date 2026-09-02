@@ -115,7 +115,7 @@ jobs:
       - name: Download Allure results
         uses: actions/download-artifact@v8
         with:
-          name: allure-results
+          name: allure-results-${{ github.run_id }}
           path: allure-results
 
       - name: Get Allure history
