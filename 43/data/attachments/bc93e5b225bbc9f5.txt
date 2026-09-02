@@ -1,5 +1,0 @@
-Status: 404 Not Found
-
-{
-  "detail": "Get user: [UsersHTTPClient]: {\"detail\":\"User with id ff519198-02f0-4476-8bef-f1c99b8318b3 not found\"}"
-}

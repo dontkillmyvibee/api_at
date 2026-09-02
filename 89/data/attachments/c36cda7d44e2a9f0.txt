@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "b082e7ba-d632-4f1b-b0b4-df1454618aad",
+    "email": "lauren14@gmail.com",
+    "lastName": "Burnett",
+    "firstName": "Jennifer",
+    "middleName": "David",
+    "phoneNumber": "(945)767-3419"
+  }
+}

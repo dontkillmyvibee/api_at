@@ -1,5 +1,0 @@
-INFO     HTTP_CLIENT:base_client.py:26 Send request GET to http://localhost:8003/api/v1/users/ff519198-02f0-4476-8bef-f1c99b8318b3
-INFO     HTTP_CLIENT:base_client.py:33 Get response "404 Not Found" from http://localhost:8003/api/v1/users/ff519198-02f0-4476-8bef-f1c99b8318b3
-INFO     BASE_ASSERTIONS:base_assertions.py:11 Check that "Status Code" equals to 404
-INFO     USER_ASSERTIONS:assertions.py:28 Check user not found response
-INFO     BASE_ASSERTIONS:base_assertions.py:34 Check that "detail" in Get user: [UsersHTTPClient]: {"detail":"User with id ff519198-02f0-4476-8bef-f1c99b8318b3 not found"}
