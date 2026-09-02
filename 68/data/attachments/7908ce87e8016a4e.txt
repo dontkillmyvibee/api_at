@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "ed99efec-1946-446f-b6ee-9b698b5c64d4",
+    "email": "robertrichardson@gmail.com",
+    "lastName": "Payne",
+    "firstName": "Shawn",
+    "middleName": "Teresa",
+    "phoneNumber": "001-337-995-9820x776"
+  }
+}
