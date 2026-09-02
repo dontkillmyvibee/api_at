@@ -14,11 +14,11 @@ on:
         required: true
         default: "api"
         type: string
-#    environment:
-#      description: "Environment"
-#      required: true
-#      default: "local"
-#      type: string
+  #    environment:
+  #      description: "Environment"
+  #      required: true
+  #      default: "local"
+  #      type: string
   schedule:
     - cron: "0 9 * * *"
 
@@ -139,3 +139,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: allure-history
+          full_commit_message: "allure: report for run ${{ github.run_id }}"
+          allow_empty_commit: true
