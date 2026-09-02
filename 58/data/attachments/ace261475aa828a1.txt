@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "cac157d9-a479-4c3a-ad76-9380e04c119d",
+    "email": "denniswilliam@gmail.com",
+    "lastName": "Schneider",
+    "firstName": "Lisa",
+    "middleName": "Debbie",
+    "phoneNumber": "949-362-1145x660"
+  }
+}
