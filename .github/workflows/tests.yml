@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       marker:
-        description: "Pytest marker"
+        description: "Pytest marker or all"
         required: true
         default: "api"
         type: string
@@ -78,7 +78,12 @@ jobs:
           exit 1
 
       - name: Run API tests
-        run: uv run pytest -m "${{ inputs.marker || 'api' }}"
+        run: |
+          if [ "${{ inputs.marker }}" = "all" ]; then
+            uv run pytest
+          else
+            uv run pytest -m "${{ inputs.marker }}"
+          fi
 
       - name: Dump stand logs on failure
         if: failure()
