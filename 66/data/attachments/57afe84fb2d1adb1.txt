@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "2bf9cd52-7c61-49e6-94dc-7178073b08ea",
+    "email": "iboyer@gmail.com",
+    "lastName": "Huerta",
+    "firstName": "Steven",
+    "middleName": "Joseph",
+    "phoneNumber": "001-939-338-0586x9777"
+  }
+}
