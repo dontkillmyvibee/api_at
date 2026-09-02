@@ -60,7 +60,6 @@ jobs:
         working-directory: ${{ env.STAND_DIR }}
         run: docker compose up -d --build
 
-
       - name: Wait for users service and gateway
         run: |
           for i in $(seq 1 60); do
@@ -137,6 +136,11 @@ jobs:
           gh_pages: gh-pages
           allure_history: allure-history
           keep_reports: 20
+
+      - name: Prepare Allure results archive
+        run: |
+          mkdir -p allure-history/artifacts
+          zip -r "allure-history/artifacts/${{ github.run_id }}.zip" allure-results
 
       - name: Deploy report to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
