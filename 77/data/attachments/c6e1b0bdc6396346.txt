@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "8df010a9-a092-47f0-9d74-268ebeb271ad",
+    "email": "psanford@outlook.com",
+    "lastName": "Vasquez",
+    "firstName": "Monica",
+    "middleName": "Jennifer",
+    "phoneNumber": "001-404-551-4965x9660"
+  }
+}
