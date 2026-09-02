@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "78fbb3f8-c3a0-4ece-b898-92d63d67ab1c",
+    "email": "michaeltodd@gmail.com",
+    "lastName": "Murphy",
+    "firstName": "Samantha",
+    "middleName": "Leslie",
+    "phoneNumber": "(792)818-3418"
+  }
+}

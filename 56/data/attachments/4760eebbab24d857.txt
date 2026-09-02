@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "2e946821-fcba-44c3-8c41-70c0d7b45e03",
+    "email": "meltontyler@mail.ru",
+    "lastName": "Johnson",
+    "firstName": "Kimberly",
+    "middleName": "Sean",
+    "phoneNumber": "+1-841-955-0651x081"
+  }
+}
