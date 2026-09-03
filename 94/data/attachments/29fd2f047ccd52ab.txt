@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "1e38c6fa-466a-4a33-b148-ab32407fcb58",
+    "email": "emmaortega@gmail.com",
+    "lastName": "Parsons",
+    "firstName": "Krista",
+    "middleName": "Eugene",
+    "phoneNumber": "+1-541-722-0460x518"
+  }
+}

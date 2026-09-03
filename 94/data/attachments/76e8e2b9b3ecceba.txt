@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "988b2894-6634-4d91-b000-20178054baf3",
+    "email": "jermainetorres@mail.ru",
+    "lastName": "Bautista",
+    "firstName": "Gabriela",
+    "middleName": "Patricia",
+    "phoneNumber": "+1-642-201-3445x3261"
+  }
+}
