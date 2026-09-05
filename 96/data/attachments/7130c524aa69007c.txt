@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "3bf93983-1b36-46cd-92f8-9f69e1b12ab1",
+    "email": "collinsjason@mail.ru",
+    "lastName": "Nguyen",
+    "firstName": "Maria",
+    "middleName": "Christian",
+    "phoneNumber": "+1-838-752-7960x5875"
+  }
+}

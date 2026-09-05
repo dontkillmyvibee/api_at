@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "03f3241d-d3fd-4e8e-8fb2-0735db844e77",
+    "email": "turnerryan@gmail.com",
+    "lastName": "Smith",
+    "firstName": "Brian",
+    "middleName": "Angela",
+    "phoneNumber": "(818)458-0823"
+  }
+}
