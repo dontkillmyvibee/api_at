@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "ceadceef-5c3c-427d-bedb-b61afe109c86",
+    "email": "nkaufman@mail.ru",
+    "lastName": "Wilson",
+    "firstName": "Derrick",
+    "middleName": "Raymond",
+    "phoneNumber": "+1-323-826-9415x52288"
+  }
+}

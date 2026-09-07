@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "44059ab1-adf1-4eab-828c-f374fbcac75b",
+    "email": "stokeslisa@gmail.com",
+    "lastName": "Gilbert",
+    "firstName": "Jennifer",
+    "middleName": "Phillip",
+    "phoneNumber": "(948)638-4381"
+  }
+}
