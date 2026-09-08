@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "786e5096-def6-4da2-b22b-a762d7ddeeaf",
+    "email": "bberger@gmail.com",
+    "lastName": "Sandoval",
+    "firstName": "Sheena",
+    "middleName": "John",
+    "phoneNumber": "597.443.6457x2619"
+  }
+}
