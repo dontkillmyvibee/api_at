@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "0e9c2bf4-f4a9-4ce9-a928-bd1cfd0e9ad3",
+    "email": "chapmanmatthew@outlook.com",
+    "lastName": "Turner",
+    "firstName": "Melanie",
+    "middleName": "Deborah",
+    "phoneNumber": "001-963-414-9421x79874"
+  }
+}
