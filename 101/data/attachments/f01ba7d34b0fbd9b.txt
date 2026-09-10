@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "970bf0e0-1d22-4ea6-86cb-e15cc8c4724e",
+    "email": "johnmorales@gmail.com",
+    "lastName": "Graham",
+    "firstName": "Susan",
+    "middleName": "Kayla",
+    "phoneNumber": "793-994-5995"
+  }
+}

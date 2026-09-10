@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "17d3b24e-8817-45fd-aa9d-0072a569fe3f",
+    "email": "alyssacollins@mail.ru",
+    "lastName": "Arias",
+    "firstName": "Debra",
+    "middleName": "James",
+    "phoneNumber": "001-720-621-6939x5817"
+  }
+}

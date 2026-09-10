@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "eb896bce-aa93-430f-bb99-db5f50e51ebe",
+    "email": "sreyes@outlook.com",
+    "lastName": "Parks",
+    "firstName": "Anthony",
+    "middleName": "Deanna",
+    "phoneNumber": "+1-346-628-6261"
+  }
+}
