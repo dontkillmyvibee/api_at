@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "cab187df-11f1-4b9c-899f-520450b04fd7",
+    "email": "dvasquez@gmail.com",
+    "lastName": "Martinez",
+    "firstName": "Olivia",
+    "middleName": "Mary",
+    "phoneNumber": "9734468892"
+  }
+}
