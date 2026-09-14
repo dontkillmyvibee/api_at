@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "74f48683-826d-4ad3-a034-da92de09ebb5",
+    "email": "orodgers@gmail.com",
+    "lastName": "Kane",
+    "firstName": "Michael",
+    "middleName": "Elizabeth",
+    "phoneNumber": "+1-288-377-2742x14083"
+  }
+}

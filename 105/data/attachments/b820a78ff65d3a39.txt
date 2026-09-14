@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "8bba746d-9266-4b60-9b00-aae1968f36a5",
+    "email": "wellsgrace@outlook.com",
+    "lastName": "Pham",
+    "firstName": "Christopher",
+    "middleName": "Curtis",
+    "phoneNumber": "001-244-724-4224x8968"
+  }
+}
