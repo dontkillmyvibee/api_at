@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "94027706-48c5-4525-9e79-1f04b1168c1f",
+    "email": "jamiecooper@gmail.com",
+    "lastName": "Juarez",
+    "firstName": "Jennifer",
+    "middleName": "Margaret",
+    "phoneNumber": "(621)674-1694x77585"
+  }
+}
