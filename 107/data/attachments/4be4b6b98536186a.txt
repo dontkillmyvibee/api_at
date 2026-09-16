@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "9cf25011-52d9-4376-8188-e2711200ce80",
+    "email": "bennettdaisy@gmail.com",
+    "lastName": "Callahan",
+    "firstName": "Richard",
+    "middleName": "Jessica",
+    "phoneNumber": "+1-771-745-6356"
+  }
+}
