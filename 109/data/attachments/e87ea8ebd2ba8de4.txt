@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "c7ddd970-14d0-482e-8d60-8640ec948cda",
+    "email": "lamleslie@gmail.com",
+    "lastName": "Cooper",
+    "firstName": "Michael",
+    "middleName": "Brandon",
+    "phoneNumber": "926-392-0472"
+  }
+}

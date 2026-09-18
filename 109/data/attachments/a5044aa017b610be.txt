@@ -1,0 +1,5 @@
+curl -X 'POST' \
+     'http://localhost:8003/api/v1/users' \
+     -H 'Accept: */*' \
+     -H 'Content-Type: application/json' \
+     -d '{"email": "james20@example.com", "lastName": "Carter", "firstName": "Eddie", "middleName": "David", "phoneNumber": "553.615.1296"}'
