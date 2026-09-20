@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "e619b168-04cd-42b5-8523-869f3ff09a8e",
+    "email": "walltimothy@icloud.com",
+    "lastName": "Glover",
+    "firstName": "Carla",
+    "middleName": "Karla",
+    "phoneNumber": "(342)799-7265"
+  }
+}
