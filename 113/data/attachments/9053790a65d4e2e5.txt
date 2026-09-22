@@ -1,0 +1,3 @@
+curl -X 'GET' \
+     'http://localhost:8003/api/v1/users/655b24bb-4487-4d06-a355-aabb3a1afe94' \
+     -H 'Accept: */*'

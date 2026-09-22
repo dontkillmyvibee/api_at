@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "a67139ad-b2ac-41b9-8437-bb8376f93c23",
+    "email": "robertcontreras@mail.ru",
+    "lastName": "Garza",
+    "firstName": "Shawn",
+    "middleName": "Shannon",
+    "phoneNumber": "526.881.0994"
+  }
+}
