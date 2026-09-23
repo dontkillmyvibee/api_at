@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "44892a2a-ccb6-4c4a-9428-dad4b8905b95",
+    "email": "tonymorgan@icloud.com",
+    "lastName": "Stein",
+    "firstName": "Mark",
+    "middleName": "Michael",
+    "phoneNumber": "944-634-1273x17977"
+  }
+}

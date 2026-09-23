@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "8734a38e-b08c-4180-b619-b474b70993d3",
+    "email": "orojas@outlook.com",
+    "lastName": "Graves",
+    "firstName": "Kelly",
+    "middleName": "Trevor",
+    "phoneNumber": "(503)508-4867x93958"
+  }
+}
