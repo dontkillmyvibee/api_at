@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "3b8d28c8-caa9-4f8c-af62-4690f609cfb0",
+    "email": "kentboyd@gmail.com",
+    "lastName": "Saunders",
+    "firstName": "Nicole",
+    "middleName": "Stephanie",
+    "phoneNumber": "001-698-296-2777"
+  }
+}
