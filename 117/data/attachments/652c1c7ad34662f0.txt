@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "a81e5d2e-ad0b-4a97-83c1-4ff4645afc91",
+    "email": "uaustin@outlook.com",
+    "lastName": "Castaneda",
+    "firstName": "Rachel",
+    "middleName": "Kim",
+    "phoneNumber": "611.271.9618"
+  }
+}
