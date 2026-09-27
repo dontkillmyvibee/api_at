@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "68dbfc04-17b2-49e8-879c-75efb7eb0ad1",
+    "email": "hollandshannon@icloud.com",
+    "lastName": "Ware",
+    "firstName": "Amanda",
+    "middleName": "Lorraine",
+    "phoneNumber": "(752)829-2579"
+  }
+}

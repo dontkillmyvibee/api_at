@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "925a1d56-1264-4bab-8ecb-f659283a66d2",
+    "email": "brett51@outlook.com",
+    "lastName": "Davis",
+    "firstName": "Janet",
+    "middleName": "Sydney",
+    "phoneNumber": "952-710-2309"
+  }
+}
