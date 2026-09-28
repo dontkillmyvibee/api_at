@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "5e24fd08-0cfc-46ef-b401-3d803610bc4f",
+    "email": "browncolleen@mail.ru",
+    "lastName": "Maxwell",
+    "firstName": "Nathan",
+    "middleName": "Christian",
+    "phoneNumber": "(303)682-9617x31069"
+  }
+}
