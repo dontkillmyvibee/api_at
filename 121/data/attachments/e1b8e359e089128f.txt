@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "83c7098a-a9b9-40ed-8ae4-72c9353a0a2f",
+    "email": "newtonerica@gmail.com",
+    "lastName": "Sanchez",
+    "firstName": "Kimberly",
+    "middleName": "Aaron",
+    "phoneNumber": "(816)753-3993"
+  }
+}
