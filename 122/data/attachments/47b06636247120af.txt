@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "aca92695-8c24-425a-9715-2740ef9e7741",
+    "email": "sullivandustin@icloud.com",
+    "lastName": "Romero",
+    "firstName": "Kathryn",
+    "middleName": "Anna",
+    "phoneNumber": "+1-465-911-7916x778"
+  }
+}
