@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "e3edce98-25ab-42d2-845b-20c6ccc0ee44",
+    "email": "juliageorge@gmail.com",
+    "lastName": "Dunn",
+    "firstName": "Benjamin",
+    "middleName": "Leah",
+    "phoneNumber": "210-568-8921x39813"
+  }
+}
