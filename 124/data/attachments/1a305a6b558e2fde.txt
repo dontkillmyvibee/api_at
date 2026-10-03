@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "66c8868c-a729-48e0-83da-4fc6547b991a",
+    "email": "jburton@gmail.com",
+    "lastName": "Chang",
+    "firstName": "Megan",
+    "middleName": "Frank",
+    "phoneNumber": "716-622-2547x677"
+  }
+}
