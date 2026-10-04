@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "cf085cc8-9756-4423-99ba-ba155c2abf16",
+    "email": "hufftimothy@icloud.com",
+    "lastName": "Baker",
+    "firstName": "Carl",
+    "middleName": "Robert",
+    "phoneNumber": "+1-338-665-8666x373"
+  }
+}
