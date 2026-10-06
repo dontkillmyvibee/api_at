@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "385d9669-2e21-4046-a65b-24cbe422167d",
+    "email": "larryarias@gmail.com",
+    "lastName": "Hendrix",
+    "firstName": "Bryan",
+    "middleName": "Heather",
+    "phoneNumber": "+1-846-621-3176x96199"
+  }
+}

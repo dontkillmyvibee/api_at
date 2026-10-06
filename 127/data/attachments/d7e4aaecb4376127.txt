@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "4878a712-1761-40fd-abcd-f4ad3ccd8cf0",
+    "email": "brendalawson@icloud.com",
+    "lastName": "Andrews",
+    "firstName": "William",
+    "middleName": "Brianna",
+    "phoneNumber": "(511)215-3065x74034"
+  }
+}
