@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "b684e401-502a-4346-9f7a-c6685b3088a9",
+    "email": "kirbypatrick@icloud.com",
+    "lastName": "Forbes",
+    "firstName": "Andrew",
+    "middleName": "Stephanie",
+    "phoneNumber": "231.751.0409x6515"
+  }
+}

@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "51574ca1-c0e8-4422-a79f-385ad2afe63e",
+    "email": "robinharvey@gmail.com",
+    "lastName": "Wolfe",
+    "firstName": "Charles",
+    "middleName": "Tony",
+    "phoneNumber": "600-527-3605"
+  }
+}
