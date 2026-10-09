@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "867194ea-1c90-4722-9395-490ec12b28b4",
+    "email": "rguzman@outlook.com",
+    "lastName": "Williams",
+    "firstName": "Karen",
+    "middleName": "Brenda",
+    "phoneNumber": "+1-646-892-6313x6991"
+  }
+}

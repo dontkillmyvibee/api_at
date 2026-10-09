@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "86c0882c-9a42-48c4-ac19-2a919ad42a70",
+    "email": "laurahill@gmail.com",
+    "lastName": "Pennington",
+    "firstName": "Sarah",
+    "middleName": "Ronald",
+    "phoneNumber": "001-756-914-8858x8933"
+  }
+}
