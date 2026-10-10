@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "3a5c5e72-07c4-4a20-bcd7-74e1f8fe67ac",
+    "email": "watsonmandy@gmail.com",
+    "lastName": "Whitney",
+    "firstName": "Mason",
+    "middleName": "Phillip",
+    "phoneNumber": "001-353-434-1334x447"
+  }
+}
