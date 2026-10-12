@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "c78335ae-9519-4d66-a424-88d7c8e5440e",
+    "email": "karen70@icloud.com",
+    "lastName": "Miles",
+    "firstName": "Angela",
+    "middleName": "John",
+    "phoneNumber": "872-427-8323"
+  }
+}
