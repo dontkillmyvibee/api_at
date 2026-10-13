@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "dab788b7-4ad3-4d58-8cd4-6b3ebcf3121e",
+    "email": "travisluna@gmail.com",
+    "lastName": "Gonzales",
+    "firstName": "Scott",
+    "middleName": "Javier",
+    "phoneNumber": "+1-710-876-3841"
+  }
+}
