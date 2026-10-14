@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "f078effb-14f4-4ec5-81af-db34f0615dfa",
+    "email": "qanderson@icloud.com",
+    "lastName": "Torres",
+    "firstName": "Dakota",
+    "middleName": "Lisa",
+    "phoneNumber": "001-574-807-5036x837"
+  }
+}

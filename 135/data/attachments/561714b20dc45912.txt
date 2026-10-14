@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "d5009b18-cf72-42e7-91f2-505127f53b32",
+    "email": "mariecompton@gmail.com",
+    "lastName": "Foster",
+    "firstName": "Michelle",
+    "middleName": "Jason",
+    "phoneNumber": "923-512-8305x6320"
+  }
+}
