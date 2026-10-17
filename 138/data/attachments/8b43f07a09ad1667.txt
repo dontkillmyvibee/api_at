@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "b10b6934-f386-4a38-ae4b-cceb7f452dcd",
+    "email": "alangilbert@gmail.com",
+    "lastName": "Tate",
+    "firstName": "Julie",
+    "middleName": "Benjamin",
+    "phoneNumber": "+1-996-244-4180x03094"
+  }
+}
