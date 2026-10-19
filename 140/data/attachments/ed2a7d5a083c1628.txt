@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "01c83c25-003a-449f-91bc-c764d81fd41a",
+    "email": "washingtondawn@gmail.com",
+    "lastName": "Scott",
+    "firstName": "Randy",
+    "middleName": "Betty",
+    "phoneNumber": "761.811.1653"
+  }
+}
