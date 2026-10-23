@@ -1,0 +1,12 @@
+INFO     HTTP_CLIENT:base_client.py:26 Send request POST to http://localhost:8003/api/v1/users
+INFO     HTTP_CLIENT:base_client.py:33 Get response "200 OK" from http://localhost:8003/api/v1/users
+INFO     HTTP_CLIENT:base_client.py:26 Send request GET to http://localhost:8003/api/v1/users/976ce7b9-6fe5-47ee-92c5-c572aa3e310f
+INFO     HTTP_CLIENT:base_client.py:33 Get response "200 OK" from http://localhost:8003/api/v1/users/976ce7b9-6fe5-47ee-92c5-c572aa3e310f
+INFO     BASE_ASSERTIONS:base_assertions.py:11 Check that "Status Code" equals to 200
+INFO     USER_ASSERTIONS:assertions.py:16 Check get user response
+INFO     BASE_ASSERTIONS:base_assertions.py:11 Check that "user_id" equals to 976ce7b9-6fe5-47ee-92c5-c572aa3e310f
+INFO     BASE_ASSERTIONS:base_assertions.py:11 Check that "email" equals to elizabeth38@example.org
+INFO     BASE_ASSERTIONS:base_assertions.py:11 Check that "last_name" equals to Wood
+INFO     BASE_ASSERTIONS:base_assertions.py:11 Check that "first_name" equals to Anna
+INFO     BASE_ASSERTIONS:base_assertions.py:11 Check that "middle_name" equals to Daniel
+INFO     BASE_ASSERTIONS:base_assertions.py:11 Check that "phone_number" equals to 632-878-8020x29454

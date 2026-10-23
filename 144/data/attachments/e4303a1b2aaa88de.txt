@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "86aa088f-118a-48d2-b984-c2fb54773bee",
+    "email": "troyhowell@gmail.com",
+    "lastName": "Orr",
+    "firstName": "Luis",
+    "middleName": "George",
+    "phoneNumber": "+1-266-253-0910x122"
+  }
+}

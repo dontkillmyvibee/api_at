@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "368d438a-ab54-44be-a005-3cf5cc822250",
+    "email": "martineznatalie@outlook.com",
+    "lastName": "Cooper",
+    "firstName": "Claudia",
+    "middleName": "Mario",
+    "phoneNumber": "939.400.7611x72736"
+  }
+}

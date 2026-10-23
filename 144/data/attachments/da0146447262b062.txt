@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "691de97b-4dbf-4b18-b035-fcd99cd0be4f",
+    "email": "etran@mail.ru",
+    "lastName": "Long",
+    "firstName": "Krystal",
+    "middleName": "Steven",
+    "phoneNumber": "(780)691-0851x893"
+  }
+}
