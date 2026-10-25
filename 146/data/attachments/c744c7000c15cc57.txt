@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "32c559eb-953b-45cc-9961-8971db61b081",
+    "email": "qphillips@gmail.com",
+    "lastName": "Buckley",
+    "firstName": "Todd",
+    "middleName": "Michael",
+    "phoneNumber": "+1-568-527-5977"
+  }
+}
