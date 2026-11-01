@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "49a203c1-f978-4fb1-b615-e974ffdd876c",
+    "email": "jessicahawkins@gmail.com",
+    "lastName": "Conner",
+    "firstName": "Robert",
+    "middleName": "Allen",
+    "phoneNumber": "+1-892-400-0778x4815"
+  }
+}
