@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "d772dcef-10c6-4d7a-bc31-07e1a4f8c49b",
+    "email": "dariusdaniel@gmail.com",
+    "lastName": "Brown",
+    "firstName": "Shannon",
+    "middleName": "Jill",
+    "phoneNumber": "260.583.9742x80681"
+  }
+}

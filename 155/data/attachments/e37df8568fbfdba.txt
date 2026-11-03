@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "66f73511-9700-426f-982b-cb33661ab810",
+    "email": "xporter@icloud.com",
+    "lastName": "Collins",
+    "firstName": "Jeffery",
+    "middleName": "George",
+    "phoneNumber": "906.510.9220x947"
+  }
+}
