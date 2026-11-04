@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "207aea25-4e2b-4f24-ad7e-e62cc0be02d6",
+    "email": "valerie82@mail.ru",
+    "lastName": "Perry",
+    "firstName": "Mark",
+    "middleName": "Robert",
+    "phoneNumber": "550.618.8293"
+  }
+}

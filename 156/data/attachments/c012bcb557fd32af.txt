@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "0d840942-b8ac-4808-8f08-0290c81a4a78",
+    "email": "fisherbrittany@gmail.com",
+    "lastName": "Adkins",
+    "firstName": "Brian",
+    "middleName": "Denise",
+    "phoneNumber": "+1-521-507-7041"
+  }
+}

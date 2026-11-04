@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "d6e409ac-3ce7-44be-b981-8e3fa975d0fe",
+    "email": "manningcody@icloud.com",
+    "lastName": "Shaw",
+    "firstName": "Jennifer",
+    "middleName": "Renee",
+    "phoneNumber": "(443)933-7351"
+  }
+}
