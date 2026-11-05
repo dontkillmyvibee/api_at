@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "0e56e380-756a-4537-870a-ebf69c3e7092",
+    "email": "osborneeric@mail.ru",
+    "lastName": "Thompson",
+    "firstName": "Michael",
+    "middleName": "Andrea",
+    "phoneNumber": "+1-466-778-2717"
+  }
+}

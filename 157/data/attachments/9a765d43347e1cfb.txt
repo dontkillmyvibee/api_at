@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "5129dfa4-b359-42fb-a6a5-034bad874a3c",
+    "email": "batescynthia@gmail.com",
+    "lastName": "Phillips",
+    "firstName": "Samuel",
+    "middleName": "Julia",
+    "phoneNumber": "914-498-9443"
+  }
+}
