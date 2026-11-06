@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "7e8090ba-36a2-47fb-a8ab-e9890f5670c5",
+    "email": "halloscar@gmail.com",
+    "lastName": "Watson",
+    "firstName": "Benjamin",
+    "middleName": "Jeffery",
+    "phoneNumber": "001-757-588-9013"
+  }
+}
