@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "61ace632-eb96-4662-a080-d5c1f216f428",
+    "email": "kruegerisaac@mail.ru",
+    "lastName": "Lynn",
+    "firstName": "John",
+    "middleName": "Tonya",
+    "phoneNumber": "+1-532-239-1594x69480"
+  }
+}
