@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "58d5dc36-7e60-49e3-92e0-411e07c9d13f",
+    "email": "thompsonlauren@icloud.com",
+    "lastName": "Hunter",
+    "firstName": "Natalie",
+    "middleName": "Andrea",
+    "phoneNumber": "254-330-9775x85457"
+  }
+}

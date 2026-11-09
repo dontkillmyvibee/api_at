@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "c38a0a72-8a0e-4412-902c-9eade2236ed3",
+    "email": "gibsonsteven@mail.ru",
+    "lastName": "Mcbride",
+    "firstName": "Isabella",
+    "middleName": "Erica",
+    "phoneNumber": "(756)213-1860x892"
+  }
+}
