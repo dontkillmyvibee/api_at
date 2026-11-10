@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "33e0c39e-da0c-4b16-9e62-5864209ab3e4",
+    "email": "markmatthews@outlook.com",
+    "lastName": "Castaneda",
+    "firstName": "Connor",
+    "middleName": "Kelly",
+    "phoneNumber": "710.916.0914x8546"
+  }
+}

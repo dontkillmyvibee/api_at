@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "15e74e8f-ccf2-4797-80ad-6a3a89860ea4",
+    "email": "robertocampbell@gmail.com",
+    "lastName": "Watkins",
+    "firstName": "Nicholas",
+    "middleName": "Maurice",
+    "phoneNumber": "826.376.2228x6268"
+  }
+}
