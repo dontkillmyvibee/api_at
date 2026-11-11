@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "2f728699-c0ce-4c96-9898-f23c0e65f268",
+    "email": "mfischer@gmail.com",
+    "lastName": "Orozco",
+    "firstName": "Susan",
+    "middleName": "Samantha",
+    "phoneNumber": "(313)557-1645"
+  }
+}
