@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "13ffef41-e342-400b-8eaf-0322f0340ce3",
+    "email": "matthew72@icloud.com",
+    "lastName": "Collier",
+    "firstName": "Christine",
+    "middleName": "Sydney",
+    "phoneNumber": "316.764.7626"
+  }
+}

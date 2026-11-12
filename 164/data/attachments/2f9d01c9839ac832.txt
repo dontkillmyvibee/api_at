@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "52cdc615-a661-4f03-9ce9-8cc64826d339",
+    "email": "gamblenicole@outlook.com",
+    "lastName": "Bentley",
+    "firstName": "Lisa",
+    "middleName": "Jamie",
+    "phoneNumber": "+1-773-902-6393x8447"
+  }
+}
