@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "54d400a8-e20e-412c-af2f-3fdbee3f1784",
+    "email": "sarahgonzales@gmail.com",
+    "lastName": "Castro",
+    "firstName": "William",
+    "middleName": "Thomas",
+    "phoneNumber": "453-376-1000"
+  }
+}
