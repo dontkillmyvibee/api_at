@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "eb29afa3-f5a2-499c-901c-5c7800c7869c",
+    "email": "kristinamolina@outlook.com",
+    "lastName": "Bishop",
+    "firstName": "David",
+    "middleName": "Kathleen",
+    "phoneNumber": "666.398.2202x4990"
+  }
+}
