@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "f9919c03-bc29-4c3a-ae73-1f73383c12a8",
+    "email": "hintonamanda@gmail.com",
+    "lastName": "Petersen",
+    "firstName": "Jennifer",
+    "middleName": "Wayne",
+    "phoneNumber": "604-679-5443"
+  }
+}
