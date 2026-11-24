@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "7fcf6439-1734-4603-b601-e245c55657b4",
+    "email": "codystafford@icloud.com",
+    "lastName": "Johnson",
+    "firstName": "Kristen",
+    "middleName": "Dana",
+    "phoneNumber": "(751)578-9872"
+  }
+}
