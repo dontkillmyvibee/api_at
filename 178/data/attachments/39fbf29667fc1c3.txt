@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "bbc9dc06-1da4-465b-bcdd-43b4ae5381a4",
+    "email": "andersonphillip@mail.ru",
+    "lastName": "Mercado",
+    "firstName": "Richard",
+    "middleName": "Nicole",
+    "phoneNumber": "813-477-5938"
+  }
+}

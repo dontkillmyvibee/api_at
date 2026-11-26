@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "36dd9c3a-887b-49a6-bbac-44c7cc2f3e8f",
+    "email": "theresanoble@gmail.com",
+    "lastName": "Hicks",
+    "firstName": "Vincent",
+    "middleName": "Jessica",
+    "phoneNumber": "001-358-708-1723x588"
+  }
+}
