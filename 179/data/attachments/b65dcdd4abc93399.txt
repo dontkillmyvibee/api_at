@@ -1,0 +1,12 @@
+Status: 200 OK
+
+{
+  "user": {
+    "id": "1e2cfe2e-dc69-44e9-833e-7c0619aec78c",
+    "email": "johnnyreeves@icloud.com",
+    "lastName": "Soto",
+    "firstName": "Jennifer",
+    "middleName": "Elijah",
+    "phoneNumber": "(642)507-9684"
+  }
+}
